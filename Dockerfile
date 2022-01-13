@@ -2,7 +2,7 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build-env
 WORKDIR /app
 
-# Copy the CSPROJ file and restore any dependencies (viua NUGET)
+# Copy the CSPROJ file and restore any dependencies (via NUGET)
 COPY *.csproj ./
 RUN dotnet restore
 
