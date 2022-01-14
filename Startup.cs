@@ -25,6 +25,11 @@ namespace DockerDotnetAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // Activating the use of cache via Redis
+            services.AddDistributedRedisCache(Options => {
+                Options.Configuration = Configuration.GetConnectionString("RedisConnection");
+            });
+            
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
