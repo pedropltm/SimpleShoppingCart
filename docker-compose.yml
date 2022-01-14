@@ -1,0 +1,19 @@
+version: '3'
+services:
+  backend:
+    image: pedropltm/dockerdotnetapi:initial
+    ports:
+      - "8080:80"
+    networks:
+      - simple-shopping-cart-network
+    depends_on:
+      - "redissimpleshoppingcart"
+  database:
+    image: redis:alpine
+    ports:
+      - "16379:6379"
+    networks:
+      - simple-shopping-cart-network
+networks:
+  simple-shopping-cart-network:
+    driver: bridge
