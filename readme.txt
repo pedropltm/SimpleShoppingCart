@@ -35,3 +35,33 @@ https://www.youtube.com/watch?v=f0lMGPB10bM
 Udemy - Leonardo Moura Leitão, Arquiteto de Software
 Docker: Ferramenta essencial para Desenvolvedores
 http://www.udemy.com
+
+QA Stack - Benjamin Pasero
+Should I commit the VSCode folder to source control?
+https://qastack.com.br/programming/32964920/should-i-commit-the-vscode-folder-to-source-control
+
+Treinaweb - Marylene Guedes
+SQL vs NoSQL, qual usar?
+https://www.treinaweb.com.br/blog/sql-vs-nosql-qual-usar
+
+Treinaweb - Ana Paula de Andrade
+Os principais SGBDS NoSQL
+https://www.treinaweb.com.br/blog/os-principais-sgbds-nosql/
+
+Medium - Renato Groffe
+ASP.NET Core + Docker Compose: implementando soluções web multi-containers
+https://renatogroffe.medium.com/asp-net-core-docker-compose-implementando-solu%C3%A7%C3%B5es-web-multi-containers-5f46d22a2ca0
+
+
+Medium - Joe Honour
+A guide to setting up a .NET Core project using Docker, with integrated unit and component tests
+https://joehonour.medium.com/a-guide-to-setting-up-a-net-core-project-using-docker-with-integrated-unit-and-component-tests-a326ca5a0284
+
+
+Docker
+Create a Dockerfile for and ASP.NET Core application
+https://docs.docker.com/samples/dotnetcore/
+
+Docker
+Dockerfile reference
+https://docs.docker.com/engine/reference/builder/
